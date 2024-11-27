@@ -35,6 +35,8 @@ CREATE TABLE clientes (
 
 INSERT INTO clientes (nombre, descripcion, precio) 
 VALUES 
-  ('Monitor 17 pulgadas', 'Monitor plano LCD', 110.22),
-  ('Teclado', 'Teclado USB en español', 20.12),
-  ('Impresora', 'Impresora láser a color', 360.05);
+  ('Juan', 'Persona física', 110.22),
+  ('Pepito', 'Persona física', 20.12),
+  ('Impresiones S.A.', 'Persona jurídica', 360.05);
+
+

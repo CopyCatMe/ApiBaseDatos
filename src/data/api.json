@@ -20,43 +20,50 @@
       "descripcion": "Impresora láser a color",
       "precio": 360.05,
       "createdAt": "2024-10-23T10:56:35.101Z"
-    },
-    {
-      "id": "2338",
-      "nombre": "jhkhjhl",
-      "descripcion": "dafads",
-      "precio": 33,
-      "createdAt": "2024-11-15T20:35:18.065Z"
     }
   ],
   "clientes": [
     {
       "id": "1",
-      "nombre": "Monitor 17 pulgadas",
-      "descripcion": "Monitor plano LCD",
-      "precio": 110.22,
+      "nombre": "Juan Pérez",
+      "domicilio": "Calle Falsa 123",
+      "fecha_nacimiento": "1990-02-15",
       "createdAt": "2024-10-23T10:56:35.101Z"
     },
     {
       "id": "2",
-      "nombre": "Teclado",
-      "descripcion": "Teclado USB en español",
-      "precio": 20.12,
+      "nombre": "María López",
+      "domicilio": "Avenida Siempre Viva 456",
+      "fecha_nacimiento": "1985-07-23",
       "createdAt": "2024-10-23T10:56:35.101Z"
     },
     {
       "id": "3",
-      "nombre": "Impresora",
-      "descripcion": "Impresora láser a color",
-      "precio": 360.05,
+      "nombre": "Carlos García",
+      "domicilio": "Boulevard de los Sueños 789",
+      "fecha_nacimiento": "1978-11-30",
       "createdAt": "2024-10-23T10:56:35.101Z"
     },
     {
       "id": "2338",
-      "nombre": "jhkhjhl",
-      "descripcion": "dafads",
-      "precio": 33,
+      "nombre": "Ana Martínez",
+      "domicilio": "Camino Real 101",
+      "fecha_nacimiento": "1995-05-10",
       "createdAt": "2024-11-15T20:35:18.065Z"
+    },
+    {
+      "id": "879e",
+      "nombre": "Antonio",
+      "domicilio": "Seneca",
+      "fecha_nacimiento": "2004-01-16T00:00:00.000Z",
+      "createdAt": "2024-11-27T17:33:13.853Z"
+    },
+    {
+      "id": "edbe",
+      "nombre": "Pani",
+      "domicilio": "Males 33",
+      "fecha_nacimiento": "1231-03-12T00:00:00.000Z",
+      "createdAt": "2024-11-27T17:39:15.759Z"
     }
   ]
 }
