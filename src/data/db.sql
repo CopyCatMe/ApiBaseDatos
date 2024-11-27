@@ -22,21 +22,20 @@ VALUES
   ('Impresora', 'Impresora láser a color', 360.05);
 
 
+
 CREATE TABLE clientes (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(200) NOT NULL,
-    descripcion VARCHAR(200),
-    precio DECIMAL(10,2),
+    nombre VARCHAR(30) NOT NULL,
+    domicilio VARCHAR(20),
+    fecha_nacimiento DATE,
     createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
 -- ALTER TABLE productos ADD COLUMN imagen VARCHAR(200) AFTER descripcion;
 
-INSERT INTO clientes (nombre, descripcion, precio) 
+INSERT INTO clientes (nombre, domicilio, fecha_nacimiento) 
 VALUES 
-  ('Juan', 'Persona física', 110.22),
-  ('Pepito', 'Persona física', 20.12),
-  ('Impresiones S.A.', 'Persona jurídica', 360.05);
-
-
+  ('MJ', 'Estrada 11', '2002-01-15'),
+  ('Emi', 'Candelaria 39', '1975-01-15'),
+  ('Miguel', 'Candelaria 39', '1975-01-15');
